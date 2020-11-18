@@ -4,7 +4,8 @@
 
 org 100h
 
-array DB 5 DUP(1,2)
+array DB 5 DUP(1,2) 
+MOV AL, array
 
 ret
 
